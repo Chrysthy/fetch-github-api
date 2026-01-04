@@ -1,11 +1,12 @@
 <h1 align="center"> Fetch GitHub API </h1> 
 
-<p align="center">Projeto utilizando a API do GitHub</p>
+<p align="center">This application allows you to enter a GitHub username and view profile information, including the avatar, name, bio, and a list of the 10 most recent repositories.</p>
 
 <p align="center">  
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#support">Support</a>  
@@ -35,16 +36,37 @@
 
 ## ✨ Features
 
-- [X] Search profile from GiHub
-- [X] Search repositories from GitHub
-- [X] API
-
+- Profile Search: Find any GitHub user.
+- Profile Information: Displays the user’s avatar, name, and bio.
+- Recent Repositories: Lists the user’s 10 most recently created repositories, with direct links.
+- Loading State: Provides visual feedback while data is being fetched from the API.
+- Responsive Design: Adapts to different screen sizes.
 
 <br>
 
 ## 💻 Project
 
 - The website was created to practice JavaScript, Node, JSON and API skills.
+
+<br>
+
+### 📋 Requirements
+
+- Web browser ([Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/edge), [Firefox](https://www.mozilla.org/firefox/), etc)  
+- [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (optional but recommended)
+
+### 👣 Steps
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone <URL-do-seu-repositorio>
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd visualizador-perfil-github
+    ```
+3.  **Abra no navegador:**
+    Abra o arquivo `index.html` diretamente no seu navegador de preferência para usar a aplicação.
 
 <br>
 
