@@ -1,0 +1,37 @@
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+body {
+  animation: gradientShift 15s ease infinite;
+}
+
+.container header #input-search {
+  transition: var(--transition);
+}
+
+.container header #input-search:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.container header #btn-search {
+  transition: var(--transition);
+}
+
+.container header #btn-search:hover {
+  transform: translateY(-1px);
+}
+
+.container header #btn-search:active {
+  transform: translateY(0);
+}
+
+.repositories ul li a {
+  transition: var(--transition);
+}
+
+.repositories ul li a:hover {
+  transform: translateY(-2px);
+}
