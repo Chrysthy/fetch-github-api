@@ -24,7 +24,7 @@
 <br>
 
 <p align="center">
-  <img src=".github/foto-do-projeto.png" alt="Imagem do Projeto"  width="80%">
+  <img src=".github/gif-do-projeto.gif" alt="Project GIF"  width="80%">
 </p>
 
 <br>
