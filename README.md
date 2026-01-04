@@ -3,6 +3,7 @@
 <p align="center">This application allows you to enter a GitHub username and view profile information, including the avatar, name, bio, and a list of the 10 most recent repositories.</p>
 
 <p align="center">  
+  <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,6 +16,12 @@
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=c920c9&labelColor=000000">
 </p>
+
+<br>
+
+## 📸 Screenshots
+
+<br>
 
 <p align="center">
   <img src=".github/foto-do-projeto.png" alt="Imagem do Projeto"  width="80%">
@@ -50,10 +57,14 @@
 
 <br>
 
+## ⚙ How to Run
+
 ### 📋 Requirements
 
 - Web browser ([Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/edge), [Firefox](https://www.mozilla.org/firefox/), etc)  
 - [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (optional but recommended)
+
+<br>
 
 ### 👣 Steps
 
