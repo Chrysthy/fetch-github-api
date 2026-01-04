@@ -1,0 +1,135 @@
+/* Desktop médio */
+@media (max-width: 1280px) {
+  .container { 
+    width: 95%; 
+  }
+}
+
+/* Tablet landscape */
+@media (max-width: 1024px) {
+  .container header h2 {
+    font-size: var(--font-xl);
+  }
+  
+  .repositories ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .container { 
+    padding: var(--spacing-lg); 
+  }
+  
+  .container header #input-search,
+  .container header #btn-search {
+    max-width: 100%;
+  }
+  
+  .repositories ul { 
+    grid-template-columns: 1fr; 
+  }
+  
+  .container .profile-data .info { 
+    flex-direction: column; 
+  }
+  
+  .container .profile-data .counters { 
+    gap: var(--spacing-xl); 
+  }
+  
+  .container header h2 {
+    font-size: var(--font-lg);
+  }
+}
+
+/* Mobile grande */
+@media (max-width: 640px) {
+  .devicon-github-original {
+    font-size: var(--font-2xl);
+  }
+  
+  .container .profile-data .counters span {
+    font-size: var(--font-xl);
+  }
+  
+  .container .profile-data .counters h4 {
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile médio */
+@media (max-width: 425px) {
+  main { 
+    padding: var(--spacing-xl) var(--spacing-xs); 
+  }
+  
+  .container { 
+    padding: var(--spacing-md); 
+  }
+  
+  .container .profile-data .info img {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  .container .profile-data .info h1 {
+    font-size: var(--font-lg);
+  }
+  
+  .container .profile-data .info .data {
+    padding: var(--spacing-md) 0;
+    min-width: 100%;
+  }
+  
+  .container .profile-data .counters { 
+    gap: var(--spacing-lg); 
+  }
+  
+  .repositories ul li a h4 {
+    font-size: var(--font-xs);
+  }
+  
+  .repositories ul li a i {
+    font-size: 0.65rem;
+  }
+}
+
+/* Mobile pequeno */
+@media (max-width: 375px) {
+  .container header h2 {
+    font-size: var(--font-md);
+  }
+  
+  .container .profile-data .info img {
+    width: 7rem;
+    height: 7rem;
+  }
+  
+  .container .profile-data .counters {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+}
+
+/* Mobile extra pequeno */
+@media (max-width: 320px) {
+  main {
+    padding: var(--spacing-lg) var(--spacing-xs);
+  }
+  
+  .container {
+    padding: var(--spacing-sm);
+  }
+  
+  .container .profile-data .info img {
+    width: 6rem;
+    height: 6rem;
+  }
+  
+  .container header #btn-search {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: var(--font-xs);
+  }
+}
