@@ -74,7 +74,7 @@
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd visualizador-perfil-github
+    cd fetch-github-api
     ```
 3.  **Abra no navegador:**
     Abra o arquivo `index.html` diretamente no seu navegador de preferência para usar a aplicação.
