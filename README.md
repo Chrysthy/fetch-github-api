@@ -3,6 +3,7 @@
 <p align="center">This application allows you to enter a GitHub username and view profile information, including the avatar, name, bio, and a list of the 10 most recent repositories.</p>
 
 <p align="center">  
+  <a href="#-live-demo">Live Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -18,6 +19,19 @@
 </p>
 
 <br>
+
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://chrysthy.github.io/fetch-github-api/">
+    <img src="https://img.shields.io/badge/Live%20Demo-GitHub-success?labelColor=black" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Tip: Use right-click → “Open in new tab”.</sub>
+</p>
+
 
 ## 📸 Screenshots
 
